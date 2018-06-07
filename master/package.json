@@ -1,0 +1,19 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "Command center for slave APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeamma/TorrenterAPI.git"
+  },
+  "author": "Michael Eamma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpeamma/TorrenterAPI/issues"
+  },
+  "homepage": "https://github.com/mpeamma/TorrenterAPI#readme"
+}
