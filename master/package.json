@@ -4,7 +4,8 @@
   "description": "Command center for slave APIs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mpeamma/TorrenterAPI/issues"
   },
-  "homepage": "https://github.com/mpeamma/TorrenterAPI#readme"
+  "homepage": "https://github.com/mpeamma/TorrenterAPI#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
